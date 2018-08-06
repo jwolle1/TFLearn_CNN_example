@@ -1,0 +1,19 @@
+
+1) Put the images we want to train with into the 'images' folder.
+	a) ~80% in the 'train' folder, and
+	b) ~20% in the 'valid' folder.
+	c) Separate the two classes into 'Type 1' and 'Type 2'.
+
+2) Put the images we want to classify into the 'scripts/test_images' folder.
+
+3) Run 'process_images.py' to pre-process training and validation images.
+	a) We shouldn't have to change any parameters here.
+
+4) Run 'train_model.py'.
+	a) Adjust the variables at the top.
+	b) This script saves the trained model in the 'models' folder.
+
+5) Run 'classify.py' to classify new images from outside the training and validation sets.
+	a) Set variables at the top.
+	b) Alter code following model.predict() if necessary.
+
