@@ -2,7 +2,7 @@
 Convolutional Neural Network (2 Classes)
 
 
-#### This is a simple CNN created using TFLearn, a higher-level way to build Tensorflow models. CNNs are essentially image classifiers. They "learn" from training images by optimizing a function, which they can then use to classify new, previously unseen images.
+#### This is a simple CNN created using TFLearn, a higher-level way to build Tensorflow models. CNNs are essentially image classifiers. They "learn" by using training images to optimize a function, which they can then use to classify new, previously unseen images.
 
 An overview of how to use the project is below. It is important to maintain the folder structure.
 
@@ -25,7 +25,6 @@ An overview of how to use the project is below. It is important to maintain the 
    1. Set variables at the top.
    2. Alter code following model.predict() if necessary.
 
-I've achieved greater than 85% accuracy on out-of-sample images using this model. That's without spending too much time cropping images and combing through training data.
+I've achieved greater than 85% accuracy on out-of-sample images using this model. That's without spending too much time cropping images or combing through training data.
 
-Of course the accuracy depends heavily on the classification task and the quality of your data. I'm uploading this template as a solid foundation for others to improve upon.
-
+Of course accuracy depends heavily on the classification task and quality of training data. I'm uploading this template as a solid foundation for others to improve upon.
